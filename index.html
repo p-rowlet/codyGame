@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./favicon.png" type="image/png">
+		<link rel="stylesheet" href="./style.css" />
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.11/pixi.min.js"
+		></script>
+		<script defer src="index.js"></script>
+		<title>루미 옷입히기</title>
+	</head>
+	<body>
+		<div class="colorset">
+			<div class="color">배경색상</div>
+			<button data-color="0xffffff" class="select transparent">
+				<div></div>
+				하양
+			</button>
+			<button data-color="0xafeeee" class="select skyblue">
+				<div></div>
+				하늘
+			</button>
+			<button data-color="0xffff9f" class="select yellow">
+				<div></div>
+				노랑
+			</button>
+			<button data-color="0xffcbcb" class="select pink">
+				<div></div>
+				핑크
+			</button>
+		</div>
+		<div class="container">
+			<h1>루미 옷입히기</h1>
+			<div class="game"></div>
+			<button class="saveBtn">저장하기</button>
+		</div>
+	</body>
+</html>
